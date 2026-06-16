@@ -211,6 +211,12 @@ learning_log:
     null_tick: false
     learning: "Tick 022 surfaced 5 recurring vocabulary items (top: \"documented gap\" (2p), \"pattern is\" (2p), \"question before\" (2p), \"this question\" (2p), \"this question before\" (2p)); 1 vault_anchor candidate(s) proposed (from keyword grep)."
     report: "[[2026-06-15-roger-tick-022]]"
+  - date: 2026-06-16
+    source: tick 023
+    layer: deterministic
+    null_tick: false
+    learning: "Tick 023 surfaced 5 recurring vocabulary items (top: \"documented gap\" (2p), \"pattern is\" (2p), \"question before\" (2p), \"this question\" (2p), \"this question before\" (2p)); 1 vault_anchor candidate(s) proposed (from keyword grep)."
+    report: "[[2026-06-16-roger-tick-023]]"
 interaction_log:
   - date: 2026-05-25
     source_note: "[[🎭 Philosopher-Narrator Ensemble — Cast Index]]"
@@ -484,6 +490,16 @@ tick_log:
     refinement_proposed: false
     null_tick: false
     report: "[[2026-06-15-roger-tick-022]]"
+  - tick: 023
+    date: 2026-06-16
+    timestamp: 2026-06-16T06:01:03-0500
+    type: deterministic
+    vocab_added: 5
+    anchors_added: 0
+    vault_candidates_proposed: 1
+    refinement_proposed: false
+    null_tick: false
+    report: "[[2026-06-16-roger-tick-023]]"
 peer_awareness:
   - tick: 002
     date: 2026-05-26
@@ -765,6 +781,20 @@ peer_awareness:
       peer_vocab_count: 5
       peer_anchor_count: 2
       peer_tick_count: 20
+  - tick: 023
+    date: 2026-06-16
+    vs_will:
+      overlap_pct: 0
+      shared_vocab_count: 0
+      peer_vocab_count: 6
+      peer_anchor_count: 2
+      peer_tick_count: 22
+    vs_lily:
+      overlap_pct: 0
+      shared_vocab_count: 0
+      peer_vocab_count: 5
+      peer_anchor_count: 2
+      peer_tick_count: 21
 vault_awareness:
   - tick: 002
     date: 2026-05-26
@@ -882,6 +912,12 @@ vault_awareness:
         phrases: ['"the vault"', '"vault creatures"', '"ve watched"']
   - tick: 022
     date: 2026-06-15
+    top_matches:
+      - path: "\"02 - Core Hubs/\360\237\216\231\357\270\217 Voice Symposium \342\200\224 Trio Banter Protocol.md\""
+        match_count: 3
+        phrases: ['"the vault"', '"vault creatures"', '"ve watched"']
+  - tick: 023
+    date: 2026-06-16
     top_matches:
       - path: "\"02 - Core Hubs/\360\237\216\231\357\270\217 Voice Symposium \342\200\224 Trio Banter Protocol.md\""
         match_count: 3
